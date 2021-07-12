@@ -58,7 +58,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "2" or option == "Antofagasta":
         print("Region de Antofagasta")
-        epapa = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        epapa = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if epapa == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Antofagasta")
@@ -78,7 +78,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "3" or option == "Atacama":
         print("Region de Atacama")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Atacama")
@@ -98,7 +98,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "4" or option == "Coquimbo":
         print("Region de Coquimbo")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Coquimbo")
@@ -118,7 +118,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "5" or option == "Valparaíso":
         print("Region de Valparaíso")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Valparaíso")
@@ -138,7 +138,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
     
     if option == "6" or option == "O’Higgins":
         print("Region General Bernardo Ohiggins")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("O’Higgins")
@@ -158,7 +158,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "7" or option == "Maule":
         print("Region del Maule")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Maule")
@@ -178,7 +178,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "8" or option == "Biobío":
         print("Region del Biobío")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Biobío")
@@ -198,7 +198,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "9" or option == "Araucanía":
         print("Region de la Araucanía")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Araucanía")
@@ -218,7 +218,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "10" or option == "Los Lagos":
         print("Region de Los Lagos")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Los Lagos")
@@ -238,7 +238,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "11" or option == "Aysén":
         print("Region de Aysén")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Aysén")
@@ -258,7 +258,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "12" or option == "Magallanes":
         print("Region de Magallanes")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Magallanes")
@@ -278,7 +278,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "13" or option == "Metropolitana":
         print("Region Metropolitana")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Metropolitana")
@@ -298,7 +298,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "14" or option == "Los Ríos":
         print("Region de Los Ríos")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Los Ríos")
@@ -318,7 +318,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "15" or option == "Arica y Parinacota":
         print("Region de Arica y parinacota")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Arica y Parinacota")
@@ -338,7 +338,7 @@ while flag: #While para el inicio del menu, asi para que el usuario pueda buscar
 
     if option == "16" or option == "Ñuble":
         print("Region del Ñuble")
-        op = input("[1] Datos acumulativos \n" "[2] Datos no Acum \n" "ingrese: ") 
+        op = input("[1] Datos acumulativos \n" "[2] Datos no Acumulativos \n" "ingrese: ") 
         if op == "1":
             dias = ["1", "2", "3", "4" ,"5" ,"6" ,"7" ,"8" ,"9" ,"10" ,"11" ,"12", "13", "14"]
             casos = DatoRegionAcumulado("Ñuble")
